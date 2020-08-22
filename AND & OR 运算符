@@ -3,3 +3,8 @@
 eg从 WEB 中选择CN 且alex排名大于50
 
 SELECT * FROM Websites WHERE country = 'CN' AND alexa > 50;
+
+SELECT * FROM Websites WHERE country = 'USA' OR country = 'CN';
+
+SELECT *FROM Websites WHERE alexa > 50 AND (country = 'USA' OR country = 'CN');
+

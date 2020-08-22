@@ -1,0 +1,5 @@
+如果第一个条件和第二个条件都成立，则AND运算符显示一条记录
+如果第一个和第二个条件只有一个成立，则OR运算显示一条记录
+eg从 WEB 中选择CN 且alex排名大于50
+
+SELECT * FROM Websites WHERE country = 'CN' AND alexa > 50;

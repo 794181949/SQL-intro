@@ -1,0 +1,7 @@
+在表中，一个列可能会包含多个重复值仅仅列出不同（distinct）的值。
+
+DISTINCT 关键词用于返回唯一不同的值。
+
+eg
+SELECT DISTINC country FROM wbesites;
+可以去掉重复的值

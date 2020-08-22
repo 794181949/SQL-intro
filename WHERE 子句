@@ -1,1 +1,21 @@
-用于过滤记录：
+用于过滤记录：提取那些满足条件的记录
+SELECT column_name, column_name  FROM table_name
+WHERE column_name operator value;
+
+//eg
+SELECT * FROM Websites WHERE country = 'CN';
+
+文本字段：用单引号来围绕文本 
+VS 数值：如果是数字就不用引号
+eg SELECT * FROM Websites WHERE id = 1;
+
+WHERE 子句中使用的运算符；
+= 
+<>不等于
+>
+<
+>=
+<=
+between
+LIKE搜索某种模式
+IN指定针对某个列的多个可能值

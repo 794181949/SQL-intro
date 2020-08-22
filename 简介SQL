@@ -1,0 +1,10 @@
+Structure Query language: 结构化查询语言 = 访问或者处理数据库
+
+使用 SQL
+需要：
+RDBMS 数据库程序（比如 MS Access、SQL Server、MySQL）
+使用服务器端脚本语言，比如 PHP 或 ASP
+使用 SQL 来获取您想要的数据
+使用 HTML / CSS
+
+RDBMS 是指关系型数据库管理系统，是SQL的基础也是现代数据库系统的基础

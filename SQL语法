@@ -1,0 +1,26 @@
+//数据库表
+一个数据库包括多个或一个表，每个表都有对应的名字，表带有数据记录eg
+mysql > use RUNOOB; //use RUNOOB 命令用于选择数据库
+Database changed
+
+mysql > set names utf8; //用于设置使用的字符集
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> SELECT * FROM Websites;//读取数据表的信息； SQL对于大小写不敏感
+
+重要的命令
+SELECT - 提取数据
+  从数据库选取数据，存在结果表中叫做结果集
+  语法： SELECT column_name, column_name FROM table_name; //单独提取其中两列
+         and 
+         SELECT *FROM table_name;
+UPDATE -更新数据
+DELETE - 删除数据
+INSERT INTO- 插入数据
+CREATE DATABASE-创建数据库
+ALTER DATABASE -修改数据库
+CREATE TABLE-创建新表
+ALTER TABLE-变更数据库表
+DROP TABLE -删除表
+CREATE INDEX -创建索引
+DROP INDEX -删除索引

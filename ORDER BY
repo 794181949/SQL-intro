@@ -1,0 +1,17 @@
+用结果集按照一个列或者多个列进行排序
+默认按照升序排序，如果需要降序就要用DESC关键字
+
+语法：
+SELECT column_name, column_name FROM table_name ORDER BY column_name, column_name ASC|DESC;
+
+eg
+
+SELECT * FROM Websites ORDER BY alexa;
+
+or 
+
+SELECT * FROM Websites ORDER BY alexa DESC;
+
+或者可以多列排序：先排字母一样的分一类，然后数字排序
+
+SELECT * FROM Website ORDER BY country, alexa;

@@ -1,0 +1,16 @@
+更新已经存在的记录
+UPDATE table_name SET column1 = value1, column2 = value2,.. WHERE some_column = some_value
+如果不设置WHERE 就是会改变所有的数据
+
+eg
+UPDATE Website SET alexa = ' 5000', country = 'USA' WHERE name = '菜鸟教材';
+
+delete : DELETE FROM table_name WHERE some_column = some_value;
+
+eg 
+
+DELETE FROM Websites WHERE name = 'Facebook' AND country = 'USA';
+
+还可以删除所有数据
+eg
+DELETE *FROM table_name;
